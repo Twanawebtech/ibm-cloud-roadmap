@@ -1,0 +1,236 @@
+<!-- Filter Area-->
+<div class="header-panel shadow-z-2-filter">
+    <div class="page-container">
+      <div class="filter-row">
+        <div class="moreInfoHeader">
+          The IBM Cloud roadmap allows you to see what has arrive to IBM Cloud. Filter by quater or by segment of our cloud, using the filter below
+          <hr/>
+        </div>
+      </div>
+
+      <div class="filter-row">
+            <div class="fil">
+                <form role="search">
+                    <div class="form-group search-input">
+                        <input type="text" class="form-control" placeholder="Search by TRIBE or QUARTER" ng-model="searchTextData">
+                    </div>
+                </form>
+            </div>
+
+            <div class="filterAreaDiv">
+                <div class="ser filter" ng-click="clickToView = !clickToView">
+                    <form role="search">
+                        <div class="filterButton" id="filterButton">
+                            <span> Filter </span>
+                            <svg class="filter-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 16.8 13.9" enable-background="new 0 0 16.8 13.9" xml:space="preserve">
+                    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3D70B2" points="4,0 0,4.6 2.7,4.6 2.7,13.9 5.3,13.9 5.3,4.6 8,4.6 "/>
+                    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3D70B2" points="12.8,13.9 16.8,9.2 14.1,9.2 14.1,0 11.4,0 11.4,9.2
+                    8.8,9.2 "/>
+                  </svg>
+                        </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+</div>
+<div>
+
+<div class="page-container">
+    <div class="dropdown content-area sample-show-hide" id="filterDropdown" ng-show="clickToView">
+        <div class="inside filter-category">
+            <span class="filter-text">TRIBE:</span><br/>
+            <div class="language search-body">
+                <table>
+                    <tr>
+                        <button type="button" data-track-action="Filter" data-track-label="Python"
+                                class="tagFilter btn btn-sm" data-toggle="button" ng-click="toggleLanguage('AI')">
+                            AI
+                        </button>
+                        <button type="button" data-track-action="Filter" data-track-label="NodeJS"
+                                class="tagFilter btn btn-sm" data-toggle="button" ng-click="toggleLanguage('Data')">
+                            Data
+                        </button>
+                        <button type="button" data-track-action="Filter" data-track-label="Swift"
+                                class="tagFilter btn btn-sm" data-toggle="button" ng-click="toggleLanguage('DevServices')">
+                            DevServices
+                        </button>
+                        <button type="button" data-track-action="Filter" data-track-label="Android"
+                                class="tagFilter btn btn-sm" data-toggle="button" ng-click="toggleLanguage('Infrastructure')">
+                            Infrastructure
+                        </button>
+                        <button type="button" data-track-action="Filter" data-track-label="Hybrid"
+                                class="tagFilter btn btn-sm" data-toggle="button" ng-click="toggleLanguage('RegionalInfrastructure')">
+                            Regional Infrastructure
+                        </button>
+                        <button type="button" data-track-action="Filter" data-track-label="Hybrid"
+                                class="tagFilter btn btn-sm" data-toggle="button" ng-click="toggleLanguage('ComplianceandSecurity ')">
+                            Compliance and Security
+                        </button>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+
+        <div class="inside01">
+            <span class="filter-text">CHANGE:</span>
+            <div class="category search-body">
+                <table>
+                    <tr>
+                        <button type="button" data-track-action="Filter" data-track-label="IoT"
+                                class="tagFilter btn btn-sm" data-toggle="button" ng-click="toggleSubCategory('GA')">GA
+                        </button>
+                        <button type="button" data-track-action="Filter" data-track-label="IoT"
+                                class="tagFilter btn btn-sm" data-toggle="button" ng-click="toggleSubCategory('Refresh')">Refresh
+                        </button>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+
+
+                <div class="inside01">
+                    <span class="filter-text">QUARTER:</span>
+                    <div class="category search-body">
+                        <table>
+                            <tr>
+                                <button type="button" data-track-action="Filter" data-track-label="IoT"
+                                        class="tagFilter btn btn-sm" data-toggle="button" ng-click="toggleCategory('Q3')">Q3
+                                </button>
+                                <button type="button" data-track-action="Filter" data-track-label="IoT"
+                                        class="tagFilter btn btn-sm" data-toggle="button" ng-click="toggleCategory('Q4')">Q4
+                                </button>
+                                <button type="button" data-track-action="Filter" data-track-label="Web"
+                                        class="tagFilter btn btn-sm" data-toggle="button" ng-click="toggleCategory('Q1')">Q1
+                                </button>
+                                <button type="button" data-track-action="Filter" data-track-label="Mobile"
+                                        class="tagFilter btn btn-sm" data-toggle="button" ng-click="toggleCategory('Q2')">Q2
+                                </button>
+                                <button type="button" data-track-action="Filter" data-track-label="Watson"
+                                        class="tagFilter btn btn-sm" data-toggle="button" ng-click="toggleCategory('2H')">2H
+                                </button>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+    </div>
+</div>
+
+
+<div class="page-container">
+    <div class="dropdown2 content-area sample-show-hide">
+        <div class="inside filter-category">
+            <div class="language search-body">
+                <span class="filter-text">FILTERS:</span>
+                <table>
+                    <tr>
+                        <span ng-show="{{tagP.languages !== ''}}">
+                            <button  type="button" data-track-action="Filter" data-track-label="Python"
+                                     class="tagFilter btn btn-sm" data-toggle="button">
+
+                                <span ng-repeat="item in tagP.languages">
+                                    <span class=" ">{{item || '&nbsp;'}}{{$last ? '' : ','}}</span>
+                                </span>
+
+                            </button>
+                        </span>
+
+                        <span ng-show="{{tagP.categories !== ''}}">
+                            <button  type="button" data-track-action="Filter" data-track-label="Python"
+                                     class="tagFilter btn btn-sm 2nd" data-toggle="button">
+
+                                <span ng-repeat="item in tagP.categories">
+                                    <span class=" ">{{item || '&nbsp;'}}{{$last ? '' : ','}}</span>
+                                </span>
+                            </button>
+                        </span>
+
+                        <button type="button" class="tagFilter btn btn-sm clearAll" data-toggle="button" ng-click="toggleLanguage('NodeJS')">
+                            X Clear All
+                        </button>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<div class="page-container main outer">
+    <div class="TotHome">
+        <span ng-if="samples.length === filteredLinks.length">Displaying <b>{{samples.length}}</b> item</span>
+        <span ng-if="filteredLinks.length != samples.length">Displaying <b>{{filteredLinks.length}}</b> item</span>
+    </div>
+
+    <ul class="items-wrapper"><!-- START FULL PAGE -->
+        <li class="inside project-item slide-animation"
+            ng-repeat="sample in ( filteredLinks = ( samples | filter:searchTextData | filter:tagP.sort | samplesFilter:tagP ))">
+
+            <div class="project-outer" ng-class="{demo: sample.tags.indexOf('demo')>=0}">
+                <!-- tracking sample links -->
+                <div class="link-title">
+                    <a id="demoID" data-track-action="sample-title" data-track-label="{{sample.urlLink}}"
+                       href="{{sample.url}}" target="_blank" analytics-on="click" analytics-name="Visited Repo Content"
+                       analytics-referrer="Visited Repo Content" analytics-event="Sample Title: {{sample.name}}">{{sample.name}}</a>
+                    <a href="{{sample.homepage}}" ng-if="sample.homepage"> <span class="e1a-sample e1a-sm"></span></a>
+                </div>
+                <div class="project-content description">
+                    <span>{{sample.description}}</span>
+                </div>
+
+                <div class="project-content tag-group">
+
+                    <div class="tag-holder">
+                        <span class="FirSpanLeft">TRIBE: </span>
+                        <span ng-repeat="item in sample.language">
+                <span class="tag-filter language" ng-class="LanChecked" id="">{{item}}</span>
+
+
+              </span>
+                    </div>
+
+                    <span class="FirSpanLeft">QUARTER: </span>
+                    <div class="tag-holder">
+                        <span ng-repeat="item in sample.category">
+                        <span class="tag-filter category" ng-class="CatChecked">{{item}}</span>
+                        </span>
+                    </div>
+
+
+                    <span class="FirSpanLeft">CHANGE: </span>
+                    <div class="tag-holder">
+                        <span ng-repeat="item in sample.subCategory">
+                        <span class="tag-filter subCategory" ng-class="CatChecked">{{item}}</span>
+                        </span>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <meta name="description" content="{{sample.search}}">
+
+
+            <div class="tag-level">
+
+
+
+                <span ng-show="{{sample.urlLink !== ''}}" class="project-link demo">
+                    <a id="LiveDemo" data-track-action="sample-demo" data-track-label="{{sample.urlLink}}"
+                       href="{{sample.urlLink}}" class="hrefLink" target="_blank" analytics-on="click"
+                       analytics-name="Viewed Live Demo" analytics-referrer="Viewed Live Demo"
+                       analytics-event="Live Demo: {{sample.name}}">Link to Aha!</a>
+                </span>
+
+            </div>
+
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,7 @@
+---
+applications:
+ - buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+   name: onepageroadmap.mybluemix.net
+   host: onepageroadmap
+   memory: 256M
+   stack: cflinuxfs2

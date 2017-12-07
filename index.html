@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="./img/favicon.png"/>
+    <title>IBM Cloud Roadmap</title>
+    <meta name="author" content="Twana Daniel || IBM Bluemix Developer Advocate Team"/>
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="//use.fontawesome.com/74dfc6cf47.css">
+
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/emojione-awesome.css"/>
+    <link rel="stylesheet" href="./css/NPS-Style.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/animations.css">
+
+    <!-- ngDialog’s basic and theme CSS files -->
+    <link rel="stylesheet" href="./css/ngDialogCSS/ngDialog.css">
+    <link rel="stylesheet" href="./css/ngDialogCSS/ngDialog-theme-default.css">
+    <link rel="stylesheet" href="./css/ngDialogCSS/ngDialog-theme-plain.css">
+</head>
+
+<body ng-app="ngSamples" ng-controller="samplesController" class="home overflow-hidden">
+
+<!-- Top header blue line -->
+<div class="header-panel shadow-z-2">
+    <div class="header-container">
+        <div class="header-row">
+            <div class="header01 header-logo">
+                <div class="row-picture">
+                    <a href="./#!/index"><img id="about" src="./icons/bluemix_logo.svg"></a>
+                </div>
+                <div class="row-details">
+                    <p class="list-group-item-text">IBM Cloud Roadmap</p>
+                </div>
+            </div>
+            <div class="header02">
+                <div class="social-icons">
+                    <a class="icon" data-track-action="Icon" data-track-label="github" target="_blank"
+                       href="https://github.com/IBM-Bluemix" analytics-on="click" analytics-event="Header To: Main IBM GitHub"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Loading the view -->
+<div ng-view class="page-animation"> </div>
+
+
+<div class="rowFooter">
+        <footer>
+            Created and Managed by the IBM Cloud team</br>
+            Copyright © IBM 2018 <br>
+        </footer>
+
+</div>
+</body>
+
+
+<!-- Vendor libraries: jQuery only used for Bootstrap functionality -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.4.0/ui-bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.4.0/ui-bootstrap-tpls.min.js"></script>
+
+<!-- Loading Angular scripts-->
+<script src="./app/scripts/ngCookies.js"></script>
+<script src="./app/scripts/angular-animate.js"></script>
+<script src="./app/scripts/angular-route.js"></script>
+<script src="./app/scripts/ngMessages.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-sanitize.js"></script>
+<script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.5.0.js"></script>
+
+<!-- Loading controllers, factory, filters and dependencies -->
+<script src="./app.js"></script>
+<script src="./app/controllers/samplesController.js"></script>
+<script src="./app/controllers/requestController.js"></script>
+<script src="./app/services/samplesFactory.js"></script>
+<script src="./app/filters/samplesFilter.js"></script>
+
+<!-- Loading Google Analytics, segment scripts, angulartics.min.js and angulartics-segment.min.js to track events, Bluemix analytics Amplitude, snipes for (Tealium and Coremetrics), ida_production -->
+<script src="./external_scripts/angulartics.min.js"></script>
+<script src="./external_scripts/angulartics-segment.min.js"></script>
+<script src="./external_scripts/segment.js"> </script>
+
+<!-- NPS Feedback -->
+<script src="./external_scripts/NPS.js"></script>
+<script async src="https://nps.mybluemix.net/survey/nps-survey.js"></script>
+
+<!-- ng-Dialog Popup -->
+<script src="./app/scripts/ngDialog.js"></script>
+</html>

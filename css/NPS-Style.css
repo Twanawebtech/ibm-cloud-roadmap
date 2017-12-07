@@ -1,0 +1,154 @@
+a.survey {
+    -webkit-transition: .3s all ease;
+    transition: .3s all ease;
+    text-decoration: none;
+}
+
+a.survey .give-feedback {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: #f9f9f9;
+    box-sizing: border-box;
+}
+
+a.survey .give-feedback:hover h5, a.survey .give-feedback:active h5, a.survey .give-feedback:focus h5 {
+    text-decoration: underline;
+}
+
+a.survey .give-feedback h5 {
+    padding: 1.5em 0;
+    text-align: center;
+    text-decoration: none;
+    color: #5596e6;
+}
+
+a.survey .give-feedback h5 {
+    font-family: "HelvRomanIBM", "HelvRegularIBM", "HelveticaNeue", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
+    font-size: 3.25714285714rem;
+    line-height: 5rem;
+}
+
+a.survey .give-feedback h5:before {
+    display: block;
+    width: 100%;
+    height: 1px;
+    content: " ";
+    overflow: hidden;
+    margin-bottom: -webkit-calc(-0.721428571429rem - 1px);
+    margin-bottom: calc(-0.721428571429rem - 1px);
+}
+
+a.survey .give-feedback h5:after {
+    display: block;
+    width: 100%;
+    height: 1px;
+    content: " ";
+    overflow: hidden;
+    margin-top: -webkit-calc(-1.27857142857rem - 1px);
+    margin-top: calc(-1.27857142857rem - 1px);
+}
+
+a.survey .give-feedback h5 .inline-svg {
+    display: inline-block;
+    position: relative;
+    width: 1.83051428571rem;
+    height: 1.83051428571rem;
+}
+
+a.survey .give-feedback h5 .inline-svg svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+a.survey .give-feedback h5 span {
+    background: url("/design/assets/research/feedback/feedback-horizontal.svg") no-repeat;
+    display: inline-block;
+    height: 16px;
+    position: relative;
+    top: 2px;
+    width: 60px;
+}
+
+a.survey .give-feedback {
+    display: none;
+}
+
+a.survey .floating-feedback {
+    position: fixed;
+    top: calc((100% - 157px) / 2);
+    left: 15px;
+    width: 21px;
+    height: 70px;
+}
+
+a.survey .floating-feedback .feedback-icon {
+    display: block;
+}
+
+a.survey .floating-feedback .feedback-icon * {
+    -webkit-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
+    fill: #5596e6;
+}
+
+a.survey .floating-feedback .feedback-tooltip {
+    background: #5596e6;
+    color: white;
+    position: absolute;
+    padding: .3em .5em .5em;
+    top: -45px;
+    left: 10px;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+    width: auto;
+}
+
+a.survey .floating-feedback .feedback-tooltip:after {
+    content: "";
+    position: absolute;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 0;
+    left: 0;
+    bottom: -webkit-calc((-10px) + 1px);
+    bottom: calc((-10px) + 1px);
+    border-color: #5596e6 transparent transparent transparent;
+}
+
+a.survey .floating-feedback .feedback-tooltip span {
+    font-size: 2rem;
+    white-space: nowrap;
+}
+
+a.survey:hover .floating-feedback .feedback-tooltip, a.survey:active .floating-feedback .feedback-tooltip, a.survey:focus .floating-feedback .feedback-tooltip {
+    -webkit-animation: tooltip .3s ease-in-out 1;
+    animation: tooltip .3s ease-in-out 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes tooltip {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+    1% {
+        display: block;
+        opacity: 0;
+        -webkit-transform: translatey(0);
+        transform: translatey(0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translatey(-10px);
+        transform: translatey(-10px);
+    }
+}

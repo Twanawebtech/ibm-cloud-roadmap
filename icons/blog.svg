@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>blog</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="blog" fill-rule="nonzero" fill="#4178BE">
+            <g id="blog_24" transform="translate(2.000000, 2.000000)">
+                <g id="Layer_1">
+                    <g id="Group">
+                        <g id="Shape">
+                            <polygon points="14.5454545 7.27272727 12.7272727 7.27272727 13.6363636 4.54545455 11.8181818 4.54545455 10.9090909 7.27272727 10.9090909 10.9090909 14.5454545 10.9090909"></polygon>
+                            <polygon points="9.09090909 7.27272727 7.27272727 7.27272727 8.18181818 4.54545455 6.36363636 4.54545455 5.45454545 7.27272727 5.45454545 10.9090909 9.09090909 10.9090909"></polygon>
+                            <path d="M0,0 L0,15.3845455 L4.61545455,20 L20,20 L20,0 L0,0 Z M18.1818182,18.1818182 L5.45454545,18.1818182 L5.45454545,14.5454545 L1.81818182,14.5454545 L1.81818182,1.81818182 L18.1818182,1.81818182 L18.1818182,18.1818182 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

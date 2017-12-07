@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="22px" viewBox="0 0 27 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>video</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="video" fill-rule="nonzero" fill="#4178BE">
+            <g id="video_32" transform="translate(1.000000, 1.000000)">
+                <g id="Layer_1">
+                    <g id="Group">
+                        <polygon id="Shape" points="9.16666667 7.5 9.16666667 15.8333333 17.5 11.6666667"></polygon>
+                        <path d="M0,0 L0,3.33333333 L0,20 L25,20 L25,3.33333333 L25,0 L0,0 Z M23.3333333,18.3333333 L1.66666667,18.3333333 L1.66666667,5 L23.3333333,5 L23.3333333,18.3333333 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

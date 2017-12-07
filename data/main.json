@@ -1,0 +1,188 @@
+[
+    {
+    "name": "SAP-Certified Infrastructure",
+    "description": "Run your SAP landscapes on the most powerful SAP-certified servers in the cloud. Choose from a wide range of SAP-certified configurations that allows you to run your entire SAP landscape while meeting your data soverenty, security and resiliency needs with our global network of datacenters",
+    "language": ["Infrastructure"],
+    "category": ["Q3"],
+    "urlLink": "https://bigblue.aha.io/session/new",
+    "subCategory": ["Refresh"]
+
+      },
+      {
+      "name": "Fast on-ramp to building Cloud-Native apps",
+      "description": "A guided, curated developer experience for developers to start, get productive, and collaborate. IBM Cloud App Service Starter-Kits integrate Open Source language frameworks, runtimes, DevOps, cloud services, and compute (CF or Kubernetes), collapses barriers to entry to IBM Cloud",
+      "language": ["DevServices"],
+      "category": ["Q3"],
+      "urlLink": "https://bigblue.aha.io/session/new",
+      "subCategory": ["GA"]
+        },
+      {
+      "name": "VMware Workloads",
+      "description": "Easily deploy VMware workloads to the cloud for a seamless hybrid cloud experience. Expanding list of ecosystem partners to provide simplified  networking, storage, and security solutions including: Veeam, Zerto, F5, Fortinet, NetApp, and more to come.",
+      "language": ["Infrastructure"],
+      "category": ["Q3"],
+      "urlLink": "https://bigblue.aha.io/session/new"
+        },
+        {
+        "name": "Mass Data Migration Service (MDMS)",
+        "description": "A fast, simple way to transport data into the IBM Cloud. Move terabytes to petabytes of data securely using rugged, 120TB capacity storage devices. Mass Data Migration helps overcome data transfer challenges such as high network costs, long transfer times, and security concerns.",
+        "language": ["Infrastructure"],
+        "category": ["Q3"],
+        "urlLink": "https://bigblue.aha.io/session/new"
+          },
+          {
+          "name": "Virtual Server Instances (VSI) capabilities",
+          "description": "Run intensive workloads at accelerated compute capacity. High performance computing for graphically and data intensive applications with rapid execution. P100 support for machine learning/deep learning workloads as well as big data.",
+          "language": ["Infrastructure"],
+          "category": ["Q4"],
+          "urlLink": "https://bigblue.aha.io/session/new"
+          },
+          {
+            "name": "Bluemix is now IBM Cloud",
+            "description": "Our goal is to provide a cloud that is easy to use, unified across multiple deployments and the world leader in supporting mission critical workloads. As part of our ongoing work to build the cloud designed for you, we are unifying the public, private, hybrid and multi-cloud under one brand. IBM Cloud",
+            "language": ["DevServices"],
+            "category": ["Q4"],
+            "urlLink": "https://bigblue.aha.io/session/new"
+          },
+          {
+          "name": "New Networking Capabilities",
+          "description": "Maximum security and flexibility with easy administration.Protect your Virtual Servers  with IBM Cloud Network Security Groups (Virtual Firewalls).Access content faster around the world with our Content Delivery Network  (CDN) powered by Akamai.",
+          "language": ["Infrastructure"],
+          "category": ["Q4"],
+          "urlLink": "https://bigblue.aha.io/session/new"
+          },
+          {
+          "name": "IBM Cloud Private",
+          "description": "Drive transformation with the security and control of an untethered environment with IBM Cloud Private. This is an enterprise grade private cloud platform behind your firewall for app development. Untethered, unmanaged environment that gives you complete control on VMware and Openstack",
+          "language": ["DevServices"],
+          "category": ["Q4"],
+          "urlLink": "https://bigblue.aha.io/session/new"
+          },
+          {
+          "name": "Expanded Partnership with Docker",
+          "description": "Easily modernize existing applications with Docker Enterprise Edition. Docker Enterprise Edition (EE) for IBM Cloud, which will allow customers to easily bring up a Docker environment to containerize their existing workloads and run them on IBM Cloud",
+          "language": ["Infrastructure"],
+          "category": ["Q4"],
+          "urlLink": "https://bigblue.aha.io/session/new"
+          },
+            {
+              "name": "Watson Conversation",
+              "description": "Conversation with Watson Recommends, Lifecycle Management and Relevancy Training",
+              "language": ["AI"],
+              "category": ["Q4"],
+              "urlLink": "https://bigblue.aha.io/session/new"
+            },
+              {
+                "name": "Watson Discovery",
+                "description": "Query chaining/workflows (Beta) ",
+                "language": ["AI"],
+                "category": ["Q4"],
+                "urlLink": "https://bigblue.aha.io/session/new"
+              },
+                {
+                  "name": "Watson Compare & Comply",
+                  "description": "Natural Language Processing, Text-Native PDF, Experimental Release Validation",
+                  "language": ["AI"],
+                  "category": ["Q4"],
+                  "urlLink": "https://bigblue.aha.io/session/new"
+                },
+                  {
+                    "name": "Watson Speech Services",
+                    "description": "Core Enhancements, improved language models, Speech tooling and data collection",
+                    "language": ["AI"],
+                    "category": ["Q4"],
+                    "urlLink": "https://bigblue.aha.io/session/new"
+                  },
+                    {
+                      "name": "Watson Virtual Agent",
+                      "description": "Migrate to Kubernetes",
+                      "language": ["AI"],
+                      "category": ["Q4"],
+                      "urlLink": "https://bigblue.aha.io/session/new"
+                    },
+                      {
+                        "name": "Watson Virtual Agent",
+                        "description": "Agent Escalation within Dialog, Pre-Trained Intents in Dialog, Chat Log Analysis and Mapping, Agent Assistance + Implicit Learning ,Pre-Trained Intent Augmentation ",
+                        "language": ["AI"],
+                        "category": ["Q4"],
+                        "urlLink": "https://bigblue.aha.io/session/new"
+                      },
+                        {
+                          "name": "IBM Analytics Engine GA",
+                          "description": "Single engine for Spark and Hadoop workloads",
+                          "language": ["Data"],
+                          "category": ["Q4"],
+                          "urlLink": "https://bigblue.aha.io/session/new"
+                        },
+                          {
+                            "name": "IBM Data Catalog Open Beta",
+                            "description": "Govrn, integrated assets across WDP experiences",
+                            "language": ["Data"],
+                            "category": ["Q4"],
+                            "urlLink": "https://bigblue.aha.io/session/new"
+                          },
+                          {
+                            "name": "IBM Watson Data Platform",
+                            "description": "Integrated Experience for IBM Watson Data Platform",
+                            "language": ["Data"],
+                            "category": ["Q4"],
+                            "urlLink": "https://bigblue.aha.io/session/new"
+                          },
+                            {
+                              "name": "Streaming Analytics",
+                              "description": "IWeb based pipeline development, new Entry plan.",
+                              "language": ["Data"],
+                              "category": ["Q4"],
+                              "urlLink": "https://bigblue.aha.io/session/new"
+                            },
+                              {
+                                "name": "Containers",
+                                "description": "Container GA in Washington DC, Melbourne, Toronto, Paris, Tokyo, Hong Hong, Sao Paolo and Singapore",
+                                "language": ["DevServices"],
+                                "category": ["Q4"],
+                                "urlLink": "https://bigblue.aha.io/session/new"
+                              },
+                                {
+                                  "name": "Kubernetes Containers",
+                                  "description": "Containers Kubernetes conformance certification",
+                                  "language": ["DevServices"],
+                                  "category": ["Q4"],
+                                  "urlLink": "https://bigblue.aha.io/session/new"
+                                },
+                                  {
+                                    "name": "Containers Security",
+                                    "description": "Containers security with edge node support",
+                                    "language": ["DevServices"],
+                                    "category": ["Q4"],
+                                    "urlLink": "https://bigblue.aha.io/session/new"
+                                  },
+                                  {
+                                    "name": "Block storage for containers",
+                                    "description": "Block storage for containers; Front Door with hardened controller; Registry with Helm chart support",
+                                    "language": ["DevServices"],
+                                    "category": ["Q4"],
+                                    "urlLink": "https://bigblue.aha.io/session/new"
+                                  },
+                                    {
+                                      "name": "Logging & Monitoring",
+                                      "description": "Logging & Monitoring in Frankfurt, Sydney and London",
+                                      "language": ["DevServices"],
+                                      "category": ["Q4"],
+                                      "urlLink": "https://bigblue.aha.io/session/new"
+                                    },
+                                    {
+                                      "name": "Activity Tracker",
+                                      "description": "Activity Tracker Goes Live",
+                                      "language": ["DevServices"],
+                                      "category": ["Q4"],
+                                      "urlLink": "https://bigblue.aha.io/session/new"
+                                    },
+                                      {
+                                        "name": "Resource Groups",
+                                        "description": "Improved cloud resource management with Resource Groups",
+                                        "language": ["DevServices"],
+                                        "category": ["Q4"],
+                                        "urlLink": "https://bigblue.aha.io/session/new"
+                                      }
+
+]
